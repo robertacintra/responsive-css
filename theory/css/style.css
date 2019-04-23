@@ -1,0 +1,22 @@
+/* esse é um bloco normal de css, o browser vai ler e mostrar esses valores na tela do usuário */
+.box {
+    border: 1px solid #000000;
+    width: 320px;
+    height: 120px;
+    background-color: #d30000;
+  }
+  
+  /* esse é um bloco condicional, o browser vai ler e mostrar esses valores na tela do usuário SE a resolução da tela for menor que 768px */
+  @media (max-width: 768px) {
+    .box {
+      background-color: #0422cc;
+    }
+  }
+  
+  /* esse é um bloco condicional, o browser vai ler e mostrar esses valores na tela do usuário SE a resolução da tela for menor que 420px */
+  @media (max-width: 420px) {
+    .box {
+      width: 100%;
+      background-color: #ffee00;
+    }
+  }

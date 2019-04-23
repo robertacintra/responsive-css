@@ -1,0 +1,88 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 768px) and (min-width: 420px) {
+    .corpo, .autora, .artigo {
+    
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0.3px 0.3px 0.3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #FFB468;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.projeto {
+    text-decoration: none;
+    color: #fc4949;
+    font-size: 11px;
+}
+
+.logo {
+    width: 15%;
+    margin: 0 20px;
+}
+
+.conteudo__container {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.autora {
+    width: 20%;
+    text-align: center;
+}
+
+.autora__nome {
+    font-weight: bold;
+    width: 20%;
+}
+
+.autora__foto {
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.artigo {
+    width: 50%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD7A7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
